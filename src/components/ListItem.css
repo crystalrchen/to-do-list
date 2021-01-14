@@ -1,0 +1,19 @@
+.list-item {
+    background-color: rgb(181, 209, 212);
+    border-radius: 8px;
+    padding: 1em;
+    color: #1a1a1a;
+    font-family: 'Karla', sans-serif;
+    font-size: 1.4em;
+    margin-bottom: 0.5em;
+    transition: 0.2s ease-in-out;
+}
+
+.list-item:hover {
+    transform: scale(1.02);
+}
+
+.list-item input[type=checkbox] {
+    transform: scale(2);
+    margin-left: 0em;
+}

@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@1,600&display=swap');
+.list-container {
+    margin: 2em auto;
+}
+
+
+h2.list-header {
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    font-size: 2em;
+    background-color: rgb(223, 237, 223);
+    padding: 0.5em;
+    color: black;
+    border-radius: 8px;
+}
+
+.list-input {
+    width: 100%;
+    border-radius: 8px;
+    border: 3px solid rgb(203, 223, 218);
+    font-size: 1.2em;
+    margin-bottom: 1em;
+    margin-top: 0.5em;
+    padding: 1em;
+    outline: none;
+}
+
+.submit-button, .submit-button:hover {
+    font-size: 1.2em;
+    color: black;
+    background-color: rgb(203, 223, 218);
+    border: none;
+    outline: none;
+    margin-top: 0.5em;
+    padding: 1em;
+    transition: 0.2s ease-in-out;
+}
+.submit-button:hover {
+  transform: scale(1.02);
+}
